@@ -1,0 +1,98 @@
+.about {
+    margin-bottom: 100px;
+}
+
+.about-title {
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 1235px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.about-blocks {
+    display: flex;
+}
+
+.about-more {
+    display: flex;
+    align-items: end;
+    max-width: 868px;
+    min-height: 622px;
+    background-image: url('../img/about/More.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 32px;
+}
+
+.about-more-descr {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    min-height: 196px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about-more-descr p {
+    max-width: 454px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFF;
+
+}
+
+.about-btn {
+    margin-left: 139px;
+}
+
+.about-btn .btn {
+    padding: 20px 38px;
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #ff9900;
+}
+
+.about-btn .btn:hover {
+    background-color: #ff9900;
+}
+
+.about-services {
+    max-width: 870px;
+    width: 100%;
+}
+
+.about-services-descr {
+    display: flex;
+    padding: 65px 60px;
+    border: 1px solid #CACACA;
+}
+
+.about-services-descr:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.about-services-img {
+    height: 165px;
+    width: 190px;
+    margin-right: 50px;
+}
+
+.about-services-text {
+    max-width: 452px;
+}
+
+.about-services-text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 8px;
+}
+
+.about-services-text p {
+    line-height: 32px;
+}

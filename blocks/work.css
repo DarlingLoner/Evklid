@@ -1,0 +1,85 @@
+.work {
+    margin-bottom: 100px;
+}
+
+.work-title {
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 50px;
+}
+
+.work-button-list {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.work-button-list li:not(:last-child) {
+    margin-right: 85px;
+}
+
+.work-button-list .btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.work-blocks {
+    display: flex;
+}
+
+.work-descr {
+    max-width: 758px;
+    margin-right: 142px;
+}
+
+.work-descr h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.work-descr p {
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.work-descr-buttons .more-btn {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 20px 38px;
+    margin-right: 32px;
+}
+
+.work-descr-buttons .more-btn:hover {
+    opacity: 0.7;
+}
+
+.work-descr-buttons .deal-btn {
+    padding: 20px 38px;
+    border: 1px solid #333;
+    line-height: 20px;
+}
+
+.work-descr-buttons .deal-btn:hover {
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
+}
+
+.work-slides {
+    min-width: 437px;
+    max-width: 870px;
+}
+
+.work-slides img {
+    width: 100%;
+    height: 100%;
+    background: url('../img/work/slide-one.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
