@@ -27,25 +27,28 @@
 }
 
 .header-nav a {
-    transition: color 0.2s ease;
+    padding-bottom: 3px;
 }
 
 .header-nav a:hover {
+    border-bottom: 2px solid #ff9900;
+}
+
+.header-nav a:active {
     color: #ff9900;
+    border-bottom: 2px solid #ff9900;
 }
 
 .search {
-    background-image: url('../img/search.svg');
     margin-left: 85px;
     width: 24px;
     height: 24px;
 }
 
-@media (max-width: 1140px) {
-    .search {
-        margin-left: 60px;
-    }
-    .header-nav li:not(:last-child) {
-        margin-right: 60px;
-    }
+.search svg:hover > path {
+    stroke: #ff9900;
+}
+
+.search svg:hover > rect {
+    fill: #ff9900;
 }

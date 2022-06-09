@@ -1,10 +1,10 @@
 .home {
-    min-height: 620px;
     margin-bottom: 100px;
 }
 
 .home-bg {
     position: relative;
+    min-height: 620px;
     padding: 100px 80px 30px;
 }
 
@@ -36,6 +36,7 @@
 }
 
 .home-btn .btn {
+    transition: 0.5s;
     padding: 25px 37px;
     background-color: #ff9900;
     font-weight: 700;
@@ -48,7 +49,12 @@
     background-color: #FF9900B2;
 }
 
-.home-slider {
+.home-btn .btn:active {
+    background-color: #E1670E;
+}
+
+.home-slider-wrapper {
+    overflow: hidden;
     z-index: -1;
     position: absolute;
     left: 0;
@@ -59,10 +65,15 @@
     background-color: #e2e2e2;
 }
 
-.home-slider img {
+.home-slide {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.home-slider-inner {
+    transition: 1s ease;
+    display: flex;
 }
 
 .slider-dots {
@@ -76,7 +87,7 @@
     width: 15px;
     height: 15px;
     background-color: #fff;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .slider-dots .dot:hover {

@@ -22,14 +22,30 @@
     font-size: 18px;
     line-height: 22px;
     background-color: rgba(0, 0, 0, 0);
+    transition: 0.2s;
+}
+
+.work-button-list .btn:hover {
+    color: #ff9900;
+}
+
+.work-button-list .btn:active {
+    color: #E1670E;
+}
+
+.work-btn-active {
+    color: #ff9900;
 }
 
 .work-blocks {
+    min-height: 470px;
     display: flex;
 }
 
 .work-descr {
+    position: relative;
     max-width: 758px;
+    min-height: 470px;
     margin-right: 142px;
 }
 
@@ -42,7 +58,12 @@
 
 .work-descr p {
     line-height: 32px;
-    margin-bottom: 50px;
+}
+
+.work-descr-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .work-descr-buttons .more-btn {
@@ -52,13 +73,19 @@
     line-height: 20px;
     padding: 20px 38px;
     margin-right: 32px;
+    transition: 0.5s;
 }
 
 .work-descr-buttons .more-btn:hover {
     opacity: 0.7;
 }
 
+.work-descr-buttons .more-btn:active {
+    background-color: #E1670E;
+}
+
 .work-descr-buttons .deal-btn {
+    transition: 0.5s;
     padding: 20px 38px;
     border: 1px solid #333;
     line-height: 20px;
@@ -68,6 +95,11 @@
     background-color: #666;
     border: 1px solid #666;
     color: #fff;
+}
+
+.work-descr-buttons .deal-btn:active {
+    background-color: #000;
+    border: 1px solid #000;
 }
 
 .work-slides {

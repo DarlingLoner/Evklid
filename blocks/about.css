@@ -51,6 +51,7 @@
 }
 
 .about-btn .btn {
+    transition: 0.5s;
     padding: 20px 38px;
     background-color: transparent;
     color: #fff;
@@ -59,6 +60,11 @@
 
 .about-btn .btn:hover {
     background-color: #ff9900;
+}
+
+.about-btn .btn:active {
+    border: 3px solid #E1670E;
+    background-color: #E1670E;
 }
 
 .about-services {

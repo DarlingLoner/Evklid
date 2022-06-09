@@ -1,0 +1,126 @@
+.footer {
+    background-color: #222;
+    min-height: 594px;
+    padding: 74px 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    max-width: 252px;
+    margin-right: 350px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-link-list {
+    margin-bottom: 90px;
+}
+
+.footer-link a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #cacaca;
+}
+
+.footer-link a:hover {
+    color: #ff9900;
+}
+
+.footer-link a:active {
+    color: #E1670E;
+}
+
+.footer-left-social {
+    display: flex;
+}
+
+.footer-left-social svg {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-left-social svg:hover > path {
+    fill: #ff9900;
+}
+
+.footer-left-social svg:active > path {
+    fill: #E1670E;
+}
+
+.footer-left-social a:not(:last-child) {
+    margin-right: 25px;
+}
+
+.footer-middle {
+    margin-right: 236px;
+}
+
+.footer-middle h2 {
+    font-size: 48px;
+    line-height: 59px;
+    color: #cacaca;
+    margin-bottom: 25px;
+}
+
+.footer-middle-form {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input {
+    height: 60px;
+    background-color: #414141;
+    color: #fff;
+    padding: 14px 24px;
+    margin-bottom: 25px;
+}
+
+.footer-input:hover {
+    background-color: #666;
+}
+
+.footer-textarea {
+    outline: none;
+    height: 150px;
+    padding: 14px 24px;
+    margin-bottom: 32px;
+    color: #fff;
+    background-color: #414141;
+}
+
+.footer-textarea:hover {
+    background-color: #666;
+}
+
+.footer-textarea:active {
+    background-color: #666;
+}
+
+.form-buttons .btn {
+    padding: 19px 52px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.form-buttons label {
+    color: #cacaca;
+    line-height: 32px;
+}
+
+.footer-right {
+    max-width: 363px;
+    min-height: 320px;
+}
+
+.footer-right p {
+    line-height: 32px;
+    color: #cacaca;
+}

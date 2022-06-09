@@ -83,3 +83,7 @@ label {
 legend {
     display: block;
 }
+
+textarea {
+    resize: none;
+}
